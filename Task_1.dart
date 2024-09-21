@@ -8,9 +8,7 @@
      - If it's between 0°C and 15°C: Print "Cold"
      - If it's between 16°C and 30°C: Print "Warm"
      - If it's above 30°C: Print "Hot"
-  3. After the loop, print how many readings were categorized as "Warm" or "Hot."
-
-This task involves working with both lists and conditional logic in loops.*/
+  3. After the loop, print how many readings were categorized as "Warm" or "Hot." */
 void main() {
   List<int> temp = [23, 10, 36, -5, 23, 14, 45, 0, 25, 36, 47, 58];
   int w = 0;
